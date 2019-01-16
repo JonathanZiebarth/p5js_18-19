@@ -1,10 +1,14 @@
 function setup() {
+/* canvas size looks nice on iPhone in portrait mode */
 	createCanvas(240, 470);
 }
 
 function draw() {
+  /* having the background color drawn here rather than in `function setup()` 
+  clears the text on every pass rather than placing the text on top of existing text */
+  
   background('#ED245E')
-  // mouse coordinates (useful when creating shapes, comment out once shapes are all drawn)
+  /* mouse coordinates (useful when creating shapes, comment out once shapes are all drawn) */
   textSize(14);
   fill(255);
   text('X: ' + Math.round(mouseX) + '     ' + ' Y: ' + Math.round(mouseY), 10, 14);
