@@ -1,14 +1,13 @@
 function setup() {
-	createCanvas(250, 475);
-	background('#ED245E');
+	createCanvas(240, 470);
 }
 
 function draw() {
-  
+  background('#ED245E')
   // mouse coordinates (useful when creating shapes, comment out once shapes are all drawn)
   textSize(14);
   fill(255);
-  text('X: ' + Math.round(mouseX) + ' Y: ' + Math.round(mouseY), 2, 10);
+  text('X: ' + Math.round(mouseX) + '     ' + ' Y: ' + Math.round(mouseY), 10, 14);
 	
   /* Top Dice - Square */
 	strokeWeight(3);
@@ -18,9 +17,9 @@ function draw() {
 	fill('blue');
   
   /* Top Dice - ONE */
-  /* ellipse(120, 120, 50, 50);*/
+  // ellipse(120, 120, 50, 50);
 
-   /* Top Dice - SIX */
+  // Top Dice - SIX 
   ellipse(56, 80 , 50, 50);
   ellipse(120, 80, 50, 50);
   ellipse(186, 80, 50, 50);
@@ -33,7 +32,7 @@ function draw() {
 	rect(20, 250, 200, 200);
 	fill('blue');
 	
-   /* Bottom Dice - THREE */
+  /* Bottom Dice - THREE */
   ellipse(70, 300, 50, 50);
   ellipse(120, 350, 50, 50);
   ellipse(170, 400, 50, 50);
