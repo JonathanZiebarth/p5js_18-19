@@ -1,6 +1,7 @@
 ## Dice - Assignment #2  
 
-- Declare variables for the **number** buttons (01-16, where `01` is  **TOP 1**, and `16` is **BOTTOM 6**) and set each variable to `false`. See example below:
+- Declare variables for the **number** buttons 01-16, where `01` is  **TOP 1**, and `16` is **BOTTOM 6**.   
+- Set each variable to `false`. See example below:
   
 ```var isOverRectangle01 = false;```
 
